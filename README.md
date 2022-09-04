@@ -4,3 +4,11 @@ saved as a html table named signalSimulated.html and scan it for a blob of white
 returning the cordinates of the center.
 
 OBS! Assumption, there is only one white spot. OBS!
+
+Files arranged as:
+
+____app.js______
+|               |
+locator.js      sim.js
+
+Depends on: n-readlines
