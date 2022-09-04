@@ -31,7 +31,7 @@ export function simSignal() {
 
        // use n-readlines to read the html table stored in signalSimulated.html
        // the table represents the signalstrenth by color black<->white in hex
-       const signalSimulatedLines = new LineByLine('./signalSimulated.html')
+       const signalSimulatedLines = new LineByLine('./signalSimulatedInv.html')
        // define strings used by filehandler
        let readLine
        let line
